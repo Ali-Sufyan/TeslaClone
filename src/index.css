@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+.Nav_link
+{
+    @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem]
+    rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all
+    duration-300 cursor-pointer
+}
+.car_section
+{
+    @apply w-full h-screen
+}
+.car_img{
+    @apply h-full w-full object-cover
+}
+.Car_detail
+{
+   @apply absolute mx-auto top-[17%] text-center w-full
+}
+.Model_name
+{
+    @apply text-6xl font-semibold text-[#393c41]
+}
+.tag_line
+{
+@apply text-[#4c4d51] text-2xl 
+}
+.Transform-50
+{
+    text-transform: translate(-50%,-50%);
+}
+.btn
+{
+    @apply sm:text-xl lg:text-2xl bg-black font-semibold text-[#181b21] rounded-lg mx-[0.8rem] py-[0.5rem] px-[2.5rem] lg:px-[7.8rem] lg:py-[0.9rem]
+      hover:bg-[#181b21] bg-opacity-80 transition-all
+    duration-300 cursor-pointer text-white
+}
+.down
+{
+    @apply w-full h-[20] mx-auto absolute top-[93%] animate-bounce text-center text-6xl
 }
