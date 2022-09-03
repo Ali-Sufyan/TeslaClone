@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ali-Sufyan/TeslaClone/static/css/main.be9c48ab.css",
+    "main.js": "/Ali-Sufyan/TeslaClone/static/js/main.8dc435bf.js",
+    "static/media/SolarRoof.jfif": "/Ali-Sufyan/TeslaClone/static/media/SolarRoof.8b5bc82ebf44e8c1f00d.jfif",
+    "static/media/SolarPanels.jfif": "/Ali-Sufyan/TeslaClone/static/media/SolarPanels.ca96bddb758d659d3686.jfif",
+    "static/media/ModelX.jfif": "/Ali-Sufyan/TeslaClone/static/media/ModelX.0140b250c2faf1a6f372.jfif",
+    "static/media/Model3.jfif": "/Ali-Sufyan/TeslaClone/static/media/Model3.b80ff43c462055aa99c2.jfif",
+    "static/media/ModelS.jfif": "/Ali-Sufyan/TeslaClone/static/media/ModelS.b9fa056d728e17007fcf.jfif",
+    "static/media/ModelY.jfif": "/Ali-Sufyan/TeslaClone/static/media/ModelY.e9d7d00db3f8bcebc371.jfif",
+    "index.html": "/Ali-Sufyan/TeslaClone/index.html",
+    "static/media/tesla.svg": "/Ali-Sufyan/TeslaClone/static/media/tesla.42b872119e699a3b1efdaeea6467752e.svg",
+    "main.be9c48ab.css.map": "/Ali-Sufyan/TeslaClone/static/css/main.be9c48ab.css.map",
+    "main.8dc435bf.js.map": "/Ali-Sufyan/TeslaClone/static/js/main.8dc435bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be9c48ab.css",
+    "static/js/main.8dc435bf.js"
+  ]
+}
